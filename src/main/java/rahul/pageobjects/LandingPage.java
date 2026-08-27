@@ -39,6 +39,8 @@ public class LandingPage extends AbstractComponent {
 	public void goTo()
 	{
 		driver.get("https://rahulshettyacademy.com/client");
+		driver.get("https://rahulshettyacademy2.com/client");
+		driver.get("https://rahulshettyacademy3.com/client");
 	}
 	
 	public ProductCatalogue loginApplication(String email, String password)
