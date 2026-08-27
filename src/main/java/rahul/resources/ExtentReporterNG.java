@@ -11,6 +11,9 @@ public class ExtentReporterNG {
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Web Automation Results");
 		reporter.config().setDocumentTitle("Test Results");
+		
+		reporter.config().setDocumentTitle("Test Results2");
+		reporter.config().setDocumentTitle("Test Results3");
 
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);
