@@ -35,7 +35,13 @@ public class CartPage extends AbstractComponent{
 	public CheckoutPage goToCheckout()
 	{
 		checkoutElement.click();
+		
+		System.out.println("BRANCH ADDED FOR DEMO!");
+		System.out.println("BRANCH ADDED FOR DEMO2!");
+		
 		return new CheckoutPage(driver);
+		
+		
 	}
 
 }
