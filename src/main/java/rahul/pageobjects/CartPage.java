@@ -39,6 +39,9 @@ public class CartPage extends AbstractComponent{
 		System.out.println("BRANCH ADDED FOR DEMO!");
 		System.out.println("BRANCH ADDED FOR DEMO2!");
 		
+		System.out.println("BRANCH ADDED FOR DEMO3 ADDED BY GITX IN BRANCH DEMO!");
+		System.out.println("BRANCH ADDED FOR DEMO4 ADDED BY GITX IN BRANCH DEMO!");
+		
 		return new CheckoutPage(driver);
 		
 		
